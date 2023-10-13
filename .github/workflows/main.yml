@@ -19,4 +19,6 @@ jobs:
           git checkout master
 
           git remote add upstream https://github.com/hngx-org/team-eagle-zuri-portfolio-explore-backend.git
-          git pull upstream master
+          git fetch upstream master
+
+          git merge upstream/master master
