@@ -16,5 +16,7 @@ jobs:
           git config --global user.name 'Baroonn'
           git config --global user.email 'bolubee95@gmail.com'
 
+          git checkout master
+
           git remote add upstream https://github.com/hngx-org/team-eagle-zuri-portfolio-explore-backend.git
           git pull upstream master
